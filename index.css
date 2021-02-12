@@ -1,0 +1,69 @@
+body{
+  background-color: black;
+  height: 150vh;
+}
+.head-nav{
+  position: fixed;
+  margin-top: 40px;
+}
+.logo{
+  color: #fff;
+  font: 20px/24px D-DIN-Medium,Arial,Verdana,sans-serif;
+  font-size: 36px;
+  padding-left: 60px;
+  padding-right: 30px;
+}
+.nav-links{
+  color: white;  
+  font: 14px/14px D-DIN-Medium,Arial,Verdana,sans-serif;
+  font-stretch: condensed;
+  font-weight: bold;
+  padding-left: 25px;
+}
+.shop-link{
+  padding-left: 275px;
+}
+.hamburger{
+  float: right;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+  margin-left: 15px;
+}
+.line{
+  width: 15px;
+  border: solid white 1px;
+  background-color: white;
+  margin-top: 2px;
+}
+.article{
+  color: white;
+  font: D-DIN-Medium,Arial,Verdana,sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 50vh;
+  left: 5vw;
+}
+h2{
+
+  font: 20px/24px D-DIN-Medium,Arial,Verdana,sans-serif;
+  font-stretch: semi-condensed;
+}
+h1{
+  font: 40px/50px D-DIN-Medium,Arial,Verdana,sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.box{
+  height: 50px;
+  width: 150px;
+  border: 2px solid white;
+  margin-top: 20px;
+  font: 16px/20px D-DIN-Medium,Arial,Verdana,sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
